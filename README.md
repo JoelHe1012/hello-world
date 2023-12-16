@@ -35,9 +35,9 @@ These are the elements outlined in John Gruber’s original design document. All
 1. First item
 2. Second item
 3. Third item
-4.第一项
-5.第二项
-6.第三项
+4. 第一项
+5. 第二项
+6. 第三项
 
 ### Unordered List
 
