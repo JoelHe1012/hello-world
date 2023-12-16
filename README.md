@@ -37,7 +37,7 @@ These are the elements outlined in John Gruber’s original design document. All
 3. Third item
 4. 第一项
 5. 第二项
-6. 第三项
+6. 第三项(点与文字之间要有空格)
 
 ### Unordered List
 
@@ -48,16 +48,17 @@ These are the elements outlined in John Gruber’s original design document. All
 ### Code
 
 `code`
+`print('这是一段代码')`
 
-### Horizontal Rule
+### Horizontal Rule（分隔线）
 
 ---
 
 ### Link
 
-[Markdown Guide](https://www.markdownguide.org)
+[Markdown Guide](https://www.markdownguide.org) 链接格式
 
-### Image
+### Image 图片格式
 
 ![alt text](https://www.markdownguide.org/assets/images/tux.png)
 
@@ -71,6 +72,10 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text |
+
+|表格|表格|
+|----------|-------------|
+|表格|表格|
 
 ### Fenced Code Block
 
@@ -86,7 +91,10 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 
 Here's a sentence with a footnote. [^1]
 
+这是一个脚注。[^2]
+
 [^1]: This is the footnote.
+[^2]: 这是脚注
 
 ### Heading ID
 
@@ -100,12 +108,14 @@ term
 ### Strikethrough
 
 ~~The world is flat.~~
+~~删除线~~
 
 ### Task List
 
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
+- [ ] 任务清单
 
 ### Emoji
 
@@ -116,16 +126,14 @@ That is so funny! :joy:
 ### Highlight
 
 I need to highlight these ==very important words==.
+== 高亮 ==
 
 ### Subscript
 
 H~2~O
+下标~1~
 
 ### Superscript
 
 X^2^
- - 无序列表
-
- - 无序列表2
-
-`print('这是一行代码')`
+上标^2^
